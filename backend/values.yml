@@ -1,0 +1,4 @@
+deployment: 
+  imageVersion: v1
+hpa:  # HorizontalPodAutoscaler
+  cpuUtilization: 20

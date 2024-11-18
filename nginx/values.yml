@@ -1,0 +1,6 @@
+deployment: 
+  replicas: 2
+  imageVersion: alpine
+service: 
+  type: LodBalancer
+  port: 80 
