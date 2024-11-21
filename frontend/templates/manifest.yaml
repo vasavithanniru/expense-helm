@@ -63,4 +63,4 @@ spec:
    name: frontend
  minReplicas: 1
  maxReplicas: 10
- targetCPUUtilizationPercentage: {{ .Values.hpa.cpuUtilisation }}          
+ targetCPUUtilizationPercentage: {{ .Values.hpa.cpuUtiliZation }}          
